@@ -1,5 +1,4 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
+// app/welcome/welcome.tsx
 
 export function Welcome() {
   return (
@@ -14,11 +13,7 @@ export function Welcome() {
               What&apos;s next?
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
-              {actionList.map(({text, href}) => (
-                <li key={href}>
-                  <a href={href}>{text}</a>
-                </li>
-              ))}
+              <a href="/chat">Start a new conversation</a>
             </ul>
           </nav>
         </div>
@@ -26,8 +21,3 @@ export function Welcome() {
     </main>
   );
 }
-
-const actionList = [
-  { text: "Start a new conversation", href: "/chat" },
-  // FIXME: Add more actions (e.g., /about, /faq, etc.) once corresponding features are implemented.
-];
