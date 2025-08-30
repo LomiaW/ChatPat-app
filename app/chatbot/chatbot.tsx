@@ -34,8 +34,9 @@ export function Chatbot() {
         ...prev,
         {
           sender: "bot",
-          text: `Bot response to "${input}" (scenario: ${selectedScenario}, level: ${selectedLevel})`,
-        },
+          // TODO: Replace with real bot logic
+          text: `Sure! Sounds good! Let's continue our conversation practice.`,
+        }
       ]);
     }, Number(import.meta.env.VITE_BOT_TIME_OUT || 700));
   };
