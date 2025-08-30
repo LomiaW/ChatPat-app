@@ -27,7 +27,5 @@ export function Welcome() {
   );
 }
 
-const actionList = [
-  { text: "Start a new conversation", href: "/chat" },
-  // TODO: add more actions when features are ready, such as: /about, /faq, /feedback, /settings, etc.
+  // FIXME: Add more actions (e.g., /about, /faq, /feedback, /settings) once corresponding features are implemented. See issue tracker: #123. Planned for Q3 2024.
 ]
