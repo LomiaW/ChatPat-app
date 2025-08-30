@@ -11,8 +11,13 @@ export function Chatbot() {
     setConversationStarted(true);
     setMessages([
       {
-        sender: "bot",
-        text: `Let's practice "${scenarios.find(s => s.id === selectedScenario)?.label}" for ${levels.find(l => l.id === selectedLevel)?.label}.`,
+        text: (() => {
+          const scenario = scenarios.find(s => s.id === selectedScenario);
+          const level = levels.find(l => l.id === selectedLevel);
+          const scenarioLabel = scenario ? scenario.label : "Unknown scenario";
+          const levelLabel = level ? level.label : "Unknown level";
+          return `Let's practice "${scenarioLabel}" for ${levelLabel}.`;
+        })(),
       },
     ]);
   };
