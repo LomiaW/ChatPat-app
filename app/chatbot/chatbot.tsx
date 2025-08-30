@@ -37,7 +37,7 @@ export function Chatbot() {
           text: `Bot response to "${input}" (scenario: ${selectedScenario}, level: ${selectedLevel})`,
         },
       ]);
-    }, Number(process.env.BOT_TIME_OUT || 700));
+    }, Number(import.meta.env.VITE_BOT_TIME_OUT || 700));
   };
 
   return (

@@ -33,4 +33,4 @@ const actionList = [
   // See issue tracker: 
   // https://github.com/LomiaW/ChatPat-app/issues/7
   // https://github.com/LomiaW/ChatPat-app/issues/8
-]
+];
