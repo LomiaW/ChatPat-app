@@ -9,6 +9,6 @@
 
 *               @LomiaW
 app/*           @LomiaW
-routes/*        @LomiaW
+app/routes/*        @LomiaW
 *tsconfig.json  @LomiaW
 *.config.js     @LomiaW
