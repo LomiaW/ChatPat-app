@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export function Chatbot() {
   const [selectedScenario, setSelectedScenario] = useState("");
@@ -19,7 +19,7 @@ export function Chatbot() {
           const levelLabel = level ? level.label : "Unknown level";
           return `Let's practice "${scenarioLabel}" for ${levelLabel}.`;
         })(),
-        sender: "user",
+        sender: "bot",
       },
     ]);
   };
@@ -37,7 +37,7 @@ export function Chatbot() {
           text: `Bot response to "${input}" (scenario: ${selectedScenario}, level: ${selectedLevel})`,
         },
       ]);
-    }, 700);
+    }, Number(process.env.BOT_TIME_OUT || 700));
   };
 
   return (
