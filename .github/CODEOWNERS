@@ -1,0 +1,13 @@
+# This is Code Owners file
+# More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Each line is a file pattern followed by one or more owners.
+# Lines starting with '#' are comments.
+# Blank lines are ignored.
+# The '*' pattern is used to match all files.
+# Order is important; the last matching pattern takes the most precedence.
+
+*               @LomiaW
+app/*           @LomiaW
+*tsconfig.json  @LomiaW
+*.config.js     @LomiaW
