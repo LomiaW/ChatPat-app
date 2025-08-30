@@ -27,5 +27,7 @@ export function Welcome() {
   );
 }
 
+const actionList = [
+  { text: "Start a new conversation", href: "/chat" },
   // FIXME: Add more actions (e.g., /about, /faq, /feedback, /settings) once corresponding features are implemented. See issue tracker: #123. Planned for Q3 2024.
 ]

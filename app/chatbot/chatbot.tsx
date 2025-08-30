@@ -8,6 +8,7 @@ export function Chatbot() {
   const [input, setInput] = useState("");
 
   const handleStart = () => {
+    if (!selectedScenario || !selectedLevel) return;
     setConversationStarted(true);
     setMessages([
       {
