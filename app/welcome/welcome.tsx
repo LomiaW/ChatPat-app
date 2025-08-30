@@ -29,8 +29,5 @@ export function Welcome() {
 
 const actionList = [
   { text: "Start a new conversation", href: "/chat" },
-  // FIXME: Add more actions (e.g., /about, /faq, etc.) once corresponding features are implemented. 
-  // See issue tracker: 
-  // https://github.com/LomiaW/ChatPat-app/issues/7
-  // https://github.com/LomiaW/ChatPat-app/issues/8
+  // FIXME: Add more actions (e.g., /about, /faq, etc.) once corresponding features are implemented.
 ];
