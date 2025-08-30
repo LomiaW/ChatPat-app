@@ -29,4 +29,5 @@ export function Welcome() {
 
 const actionList = [
   { text: "Start a new conversation", href: "/chat" },
+  // TODO: add more actions when features are ready, such as: /about, /faq, /feedback, /settings, etc.
 ]

@@ -18,6 +18,7 @@ export function Chatbot() {
           const levelLabel = level ? level.label : "Unknown level";
           return `Let's practice "${scenarioLabel}" for ${levelLabel}.`;
         })(),
+        sender: "user",
       },
     ]);
   };
