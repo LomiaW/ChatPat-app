@@ -38,7 +38,7 @@ export function Chatbot() {
           text: `Sure! Sounds good! Let's continue our conversation practice.`,
         }
       ]);
-    }, Number(import.meta.env.VITE_BOT_TIME_OUT || 700));
+    }, Number(import.meta.env.VITE_BOT_TIME_OUT));
   };
 
   return (
