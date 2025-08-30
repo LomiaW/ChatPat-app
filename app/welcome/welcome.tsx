@@ -29,6 +29,4 @@ export function Welcome() {
 
 const actionList = [
   { text: "Start a new conversation", href: "/chat" },
-  { text: "Read the documentation", href: "/docs" },
-  { text: "Give us your feedback", href: "/feedback" },
 ]
