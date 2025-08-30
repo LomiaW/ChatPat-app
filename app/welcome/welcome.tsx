@@ -12,8 +12,7 @@ export function Welcome() {
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
               What&apos;s next?
             </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
-              <a href="/chat">Start a new conversation</a>
+              <li><a href="/chat">Start a new conversation</a></li>
             </ul>
           </nav>
         </div>
